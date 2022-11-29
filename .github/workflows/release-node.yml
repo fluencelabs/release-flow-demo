@@ -40,8 +40,6 @@ jobs:
         with:
           node-version: "16"
           registry-url: "https://npm.fluence.dev"
-          cache-dependency-path: avm/client/package-lock.json
-          cache: "npm"
 
       - run: npm i
         if: steps.release.outputs.releases_created
