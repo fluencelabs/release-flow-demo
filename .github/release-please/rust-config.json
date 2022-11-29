@@ -1,0 +1,14 @@
+{
+  "release-type": "rust",
+  "group-pull-request-title-pattern": "chore: release marine",
+  "packages": {
+    "crates/release-flow-demo-a": {},
+    "crates/release-flow-demo-b": {}
+  },
+  "plugins": [
+    {
+      "type": "cargo-workspace",
+      "merge": false
+    }
+  ]
+}

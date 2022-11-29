@@ -1,0 +1,54 @@
+name: release-please-node
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  release-please:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Run release-please
+        id: release
+        uses: google-github-actions/release-please-action@v3
+        with:
+          command: manifest
+          config-file: .github/release-please/node-config.json
+          manifest-file: .github/release-please/node-manifest.json
+
+      - name: Import secrets
+        if: steps.release.outputs.releases_created
+        uses: hashicorp/vault-action@v2.4.3
+        with:
+          url: https://vault.fluence.dev
+          path: jwt/github
+          role: ci
+          method: jwt
+          jwtGithubAudience: "https://github.com/fluencelabs"
+          jwtTtl: 300
+          exportToken: false
+          secrets: |
+            kv/npm-registry/basicauth/ci token | NODE_AUTH_TOKEN
+
+      - name: Setup node with self-hosted npm registry
+        if: steps.release.outputs.releases_created
+        uses: actions/setup-node@v3
+        with:
+          node-version: "16"
+          registry-url: "https://npm.fluence.dev"
+          cache-dependency-path: avm/client/package-lock.json
+          cache: "npm"
+
+      - run: npm i
+        if: steps.release.outputs.releases_created
+        working-directory: npm
+
+      - run: npm run build
+        if: steps.release.outputs.releases_created
+        working-directory: npm
+
+      - run: npm publish --registry fluence
+        if: steps.release.outputs.releases_created
+        working-directory: npm

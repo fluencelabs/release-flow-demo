@@ -1,0 +1,9 @@
+[workspace]
+members = [
+  "crates/release-flow-demo-a",
+  "crates/release-flow-demo-b"
+]
+
+exclude = [
+  "cargo-crate"
+]

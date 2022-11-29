@@ -1,0 +1,8 @@
+[package]
+name = "release-flow-demo-b"
+registry = "fluence"
+version = "0.1.2"
+edition = "2021"
+
+[dependencies]
+serde = "1.0.147"
