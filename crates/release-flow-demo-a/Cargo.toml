@@ -1,8 +1,8 @@
 [package]
 name = "release-flow-demo-a"
 publish = "fluence"
-version = "0.3.0"
+version = "0.3.1"
 edition = "2021"
 
 [dependencies]
-release-flow-demo-b = { version = "0.2.0", registry = "fluence", path = "../release-flow-demo-b" }
+release-flow-demo-b = { version = "0.2.1", registry = "fluence", path = "../release-flow-demo-b" }

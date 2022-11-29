@@ -4,6 +4,10 @@
   * dependencies
     * release-flow-demo-b bumped from 0.1.1 to 0.1.2
 
+* The following workspace dependencies were updated
+  * dependencies
+    * release-flow-demo-b bumped from 0.2.0 to 0.2.1
+
 ## [0.3.0](https://github.com/fluencelabs/release-flow-demo/compare/release-flow-demo-a-v0.2.1...release-flow-demo-a-v0.3.0) (2022-11-29)
 
 
