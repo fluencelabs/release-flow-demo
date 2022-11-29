@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.2.2](https://github.com/fluencelabs/release-flow-demo/compare/release-flow-demo-b-v0.2.1...release-flow-demo-b-v0.2.2) (2022-11-29)
+
+
+### Bug Fixes
+
+* Fix rust release ([#12](https://github.com/fluencelabs/release-flow-demo/issues/12)) ([31a912a](https://github.com/fluencelabs/release-flow-demo/commit/31a912a707a2a46d00c71c5a8fc5b0cd05123433))
+
 ## [0.2.1](https://github.com/fluencelabs/release-flow-demo/compare/release-flow-demo-b-v0.2.0...release-flow-demo-b-v0.2.1) (2022-11-29)
 
 
