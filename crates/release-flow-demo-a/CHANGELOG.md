@@ -4,6 +4,20 @@
   * dependencies
     * release-flow-demo-b bumped from 0.1.1 to 0.1.2
 
+## [0.3.0](https://github.com/fluencelabs/release-flow-demo/compare/release-flow-demo-a-v0.2.1...release-flow-demo-a-v0.3.0) (2022-11-29)
+
+
+### Features
+
+* Add feature one ([#1](https://github.com/fluencelabs/release-flow-demo/issues/1)) ([3e92343](https://github.com/fluencelabs/release-flow-demo/commit/3e923430ee160178a82a431b6b572c1900953d06))
+
+
+### Dependencies
+
+* The following workspace dependencies were updated
+  * dependencies
+    * release-flow-demo-b bumped from 0.1.2 to 0.2.0
+
 ## [0.2.0](https://github.com/nahsi/release-flow-demo/compare/release-flow-demo-a-v0.1.0...release-flow-demo-a-v0.2.0) (2022-11-29)
 
 
