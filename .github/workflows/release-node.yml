@@ -9,8 +9,7 @@ jobs:
   release-please:
     runs-on: ubuntu-latest
 
-    permissions:
-      id-token: write
+    permissions: write-all
 
     steps:
       - name: Run release-please
