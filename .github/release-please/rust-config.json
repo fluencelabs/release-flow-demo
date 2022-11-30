@@ -1,6 +1,7 @@
 {
   "release-type": "rust",
   "group-pull-request-title-pattern": "chore: release marine",
+  "always-link-local": false,
   "packages": {
     "crates/release-flow-demo-a": {},
     "crates/release-flow-demo-b": {}
