@@ -1,11 +1,11 @@
 [package]
 name = "release-flow-demo-a"
 publish = ["fluence"]
-version = "0.3.3"
+version = "0.3.4-alpha.0"
 edition = "2021"
 
 [dependencies]
-release-flow-demo-b = { version = "0.2.3", registry = "fluence", path = "../release-flow-demo-b" }
+release-flow-demo-b = { version = "=0.2.4-alpha.0", registry = "fluence", path = "../release-flow-demo-b" }
 
 [package.metadata.workspaces]
 independent = true
