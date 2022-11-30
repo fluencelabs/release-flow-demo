@@ -1,8 +1,11 @@
 [package]
 name = "release-flow-demo-b"
 publish = ["fluence"]
-version = "0.2.2"
+version = "0.2.3-unstable.0"
 edition = "2021"
 
 [dependencies]
 serde = "1.0.147"
+
+[package.metadata.workspaces]
+independent = true
