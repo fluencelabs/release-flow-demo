@@ -6,9 +6,6 @@
     "crates/release-flow-demo-b": {}
   },
   "plugins": [
-    {
-      "type": "cargo-workspace",
-      "merge": false
-    }
+    "cargo-workspace"
   ]
 }
