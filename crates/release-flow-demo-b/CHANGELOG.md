@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.2.4](https://github.com/fluencelabs/release-flow-demo/compare/release-flow-demo-b-v0.2.3...release-flow-demo-b-v0.2.4) (2022-11-30)
+
+
+### Bug Fixes
+
+* Trigger release ([#20](https://github.com/fluencelabs/release-flow-demo/issues/20)) ([9091531](https://github.com/fluencelabs/release-flow-demo/commit/90915314c8e633d7122b0bdcf983d75c2adfe8fa))
+
 ## [0.2.3](https://github.com/fluencelabs/release-flow-demo/compare/release-flow-demo-b-v0.2.2...release-flow-demo-b-v0.2.3) (2022-11-30)
 
 
