@@ -8,6 +8,20 @@
   * dependencies
     * release-flow-demo-b bumped from 0.2.0 to 0.2.1
 
+## [0.3.3](https://github.com/fluencelabs/release-flow-demo/compare/release-flow-demo-a-v0.3.2...release-flow-demo-a-v0.3.3) (2022-11-30)
+
+
+### Bug Fixes
+
+* Change id to alpha ([#18](https://github.com/fluencelabs/release-flow-demo/issues/18)) ([4733dcb](https://github.com/fluencelabs/release-flow-demo/commit/4733dcb774e602c866fcdb28ebb286e9cec72be5))
+
+
+### Dependencies
+
+* The following workspace dependencies were updated
+  * dependencies
+    * release-flow-demo-b bumped from =0.2.3-alpha.0 to 0.2.3
+
 ## [0.3.2](https://github.com/fluencelabs/release-flow-demo/compare/release-flow-demo-a-v0.3.1...release-flow-demo-a-v0.3.2) (2022-11-29)
 
 
