@@ -68,8 +68,8 @@ jobs:
         run: echo "${RELEASE_PLEASE_OUTPUT}"
 
       - name: Upload marine binary
-        if: steps.release.outputs['packages/marine--release_created']
+        if: steps.release.outputs['marine--release_created']
         uses: softprops/action-gh-release@v1
         with:
           files: target/release/marine
-          tag_name: ${{ steps.release.outputs['packages/marine--tag_name'] }}
+          tag_name: ${{ steps.release.outputs['marine--tag_name'] }}
