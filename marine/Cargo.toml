@@ -1,7 +1,7 @@
 [package]
 name = "marine"
 publish = ["fluence"]
-version = "0.1.1"
+version = "0.1.2"
 edition = "2021"
 
 [[bin]]
@@ -9,4 +9,4 @@ name = "marine"
 path = "src/main.rs"
 
 [dependencies]
-release-flow-demo-a = { version = "0.6.3", registry = "fluence", path = "../crates/release-flow-demo-a" }
+release-flow-demo-a = { version = "0.6.4", registry = "fluence", path = "../crates/release-flow-demo-a" }

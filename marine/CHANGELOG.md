@@ -1,5 +1,19 @@
 # Changelog
 
+## [0.1.2](https://github.com/fluencelabs/release-flow-demo/compare/marine-v0.1.1...marine-v0.1.2) (2022-12-01)
+
+
+### Bug Fixes
+
+* Fix release-please output in release workflow ([#42](https://github.com/fluencelabs/release-flow-demo/issues/42)) ([c7179f8](https://github.com/fluencelabs/release-flow-demo/commit/c7179f87375b00984d125f1f20af082ee4ca3b95))
+
+
+### Dependencies
+
+* The following workspace dependencies were updated
+  * dependencies
+    * release-flow-demo-a bumped from 0.6.3 to 0.6.4
+
 ## [0.1.1](https://github.com/fluencelabs/release-flow-demo/compare/marine-v0.1.0...marine-v0.1.1) (2022-12-01)
 
 
