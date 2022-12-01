@@ -13,7 +13,9 @@ jobs:
     runs-on: ubuntu-latest
 
     outputs:
-      release: ${{ steps.release.outputs }}
+      release-created: ${{ steps.release.outputs.release_created }}
+      marine-js-release-created: ${{ steps.release.outputs['marine-js--release_created'] }}
+      marine-tag-name: ${{ steps.release.outputs['marine--tag_name'] }}
 
     steps:
       - name: Run release-please
@@ -35,7 +37,7 @@ jobs:
     runs-on: ubuntu-latest
 
     needs: release-please
-    if: ${{ needs.release-please.outputs.release.release_created }}
+    if: ${{ needs.release-please.outputs.release_created }}
 
     permissions:
       contents: write
@@ -75,17 +77,17 @@ jobs:
           CARGO_REGISTRY_TOKEN: ${{ secrets.CARGO_REGISTRY_TOKEN }}
 
       - name: Upload marine binary
-        if: needs.release-please.outputs.release['marine--release_created']
+        if: needs.release-please.outputs.marine-release-created
         uses: softprops/action-gh-release@v1
         with:
           files: target/release/marine
-          tag_name: ${{ needs.release-please.outputs.release['marine--tag_name'] }}
+          tag_name: ${{ needs.release-please.outputs.marine-tag-name'] }}
 
   node:
     runs-on: ubuntu-latest
 
     needs: release-please
-    if: ${{ needs.release-please.outputs.release['marine-js--release_created'] }}
+    if: ${{ needs.release-please.outputs.marine-js-release-created'] }}
 
     steps:
       - name: Checkout
@@ -111,7 +113,6 @@ jobs:
           registry-url: "https://npm.fluence.dev"
 
       - run: npm i
-        if: steps.release.outputs.releases_created
         working-directory: marine-js
 
       - run: npm publish --registry fluence
