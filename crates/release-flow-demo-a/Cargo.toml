@@ -7,6 +7,3 @@ edition = "2021"
 [dependencies]
 release-flow-demo-b = { version = "0.3.2", registry = "fluence", path = "../release-flow-demo-b" }
 prometheus-client = "0.18.0"
-
-[package.metadata.workspaces]
-independent = true

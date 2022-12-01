@@ -1,6 +1,6 @@
 {
   "release-type": "node",
   "packages": {
-    "npm": {}
+    "marine-js": {}
   }
 }
