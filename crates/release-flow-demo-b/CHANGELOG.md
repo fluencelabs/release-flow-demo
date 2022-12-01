@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.3.0](https://github.com/fluencelabs/release-flow-demo/compare/release-flow-demo-b-v0.2.5...release-flow-demo-b-v0.3.0) (2022-12-01)
+
+
+### Features
+
+* Add C ([42096ad](https://github.com/fluencelabs/release-flow-demo/commit/42096ad81ea2ded2f50c7ebfe8434c743dc6375b))
+
 ## [0.2.5](https://github.com/fluencelabs/release-flow-demo/compare/release-flow-demo-b-v0.2.4...release-flow-demo-b-v0.2.5) (2022-12-01)
 
 
