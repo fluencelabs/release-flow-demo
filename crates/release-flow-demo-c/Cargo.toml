@@ -4,5 +4,11 @@ publish = ["fluence"]
 version = "0.2.0"
 edition = "2021"
 
+[dependencies]
+serde = { version = "1.0.146", features = ["derive"] }
+serde_json = "1.0.89"
+serde_derive = "1.0.147"
+serde_with = "2.1.0"
+
 [package.metadata.workspaces]
 independent = true
