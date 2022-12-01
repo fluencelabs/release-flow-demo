@@ -9,7 +9,7 @@
       "skip-github-release": false
     },
     "crates/release-flow-demo-b": {},
-    "crates/release-flow-demo-c": {}
+    "crates/release-flow-demo-c": {},
     "marine": {
       "skip-github-release": false
     }
