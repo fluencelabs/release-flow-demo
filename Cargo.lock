@@ -4,14 +4,14 @@ version = 3
 
 [[package]]
 name = "release-flow-demo-a"
-version = "0.6.0"
+version = "0.6.1"
 dependencies = [
  "release-flow-demo-b",
 ]
 
 [[package]]
 name = "release-flow-demo-b"
-version = "0.3.1"
+version = "0.3.2"
 dependencies = [
  "release-flow-demo-c",
  "serde",
@@ -19,7 +19,7 @@ dependencies = [
 
 [[package]]
 name = "release-flow-demo-c"
-version = "0.1.0"
+version = "0.2.0"
 
 [[package]]
 name = "serde"
