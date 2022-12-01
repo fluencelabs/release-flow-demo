@@ -4,6 +4,13 @@
   * dependencies
     * release-flow-demo-a bumped from 0.6.5 to 0.6.6
 
+## [0.1.6](https://github.com/fluencelabs/release-flow-demo/compare/marine-v0.1.5...marine-v0.1.6) (2022-12-01)
+
+
+### Bug Fixes
+
+* Trigger marine release ([#59](https://github.com/fluencelabs/release-flow-demo/issues/59)) ([5ebab32](https://github.com/fluencelabs/release-flow-demo/commit/5ebab3249f6637d0b82c9715111262d937fefbbb))
+
 ## [0.1.5](https://github.com/fluencelabs/release-flow-demo/compare/marine-v0.1.4...marine-v0.1.5) (2022-12-01)
 
 
