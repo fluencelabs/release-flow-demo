@@ -1,5 +1,12 @@
 # Changelog
 
+## 1.0.0 (2022-12-01)
+
+
+### Features
+
+* Add marine ([#35](https://github.com/fluencelabs/release-flow-demo/issues/35)) ([81e0c6b](https://github.com/fluencelabs/release-flow-demo/commit/81e0c6b516205e346950556716a099e3d56c3e4d))
+
 ## [1.0.3](https://github.com/fluencelabs/release-flow-demo/compare/marine-js-v1.0.2...marine-js-v1.0.3) (2022-12-01)
 
 
