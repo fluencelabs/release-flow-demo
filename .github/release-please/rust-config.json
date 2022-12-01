@@ -11,7 +11,7 @@
     "crates/release-flow-demo-b": {},
     "crates/release-flow-demo-c": {},
     "marine": {
-      "draft": false,
+      "draft": false
     }
   },
   "plugins": [
