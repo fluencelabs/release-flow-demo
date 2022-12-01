@@ -1,5 +1,9 @@
 # Changelog
 
+* The following workspace dependencies were updated
+  * dependencies
+    * release-flow-demo-a bumped from 0.6.5 to 0.6.6
+
 ## [0.1.3](https://github.com/fluencelabs/release-flow-demo/compare/marine-v0.1.2...marine-v0.1.3) (2022-12-01)
 
 
