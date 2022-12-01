@@ -3,18 +3,15 @@
   "bump-minor-pre-major": true,
   "bump-patch-for-minor-pre-major": true,
   "group-pull-request-title-pattern": "chore: release marine",
-  "draft": true,
+  "plugins": ["cargo-workspace"],
   "packages": {
-    "crates/release-flow-demo-a": {
-      "draft": false
-    },
+    "crates/release-flow-demo-a": {},
     "crates/release-flow-demo-b": {},
     "crates/release-flow-demo-c": {},
-    "marine": {
-      "draft": false
+    "marine": {},
+    "marine-js": {
+      "release-type": "node",
+      "separate-pull-requests": true
     }
-  },
-  "plugins": [
-    "cargo-workspace"
-  ]
+  }
 }
