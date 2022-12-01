@@ -271,7 +271,7 @@ dependencies = [
 
 [[package]]
 name = "marine"
-version = "0.1.4"
+version = "0.1.5"
 dependencies = [
  "release-flow-demo-a",
 ]
@@ -376,7 +376,7 @@ dependencies = [
 
 [[package]]
 name = "release-flow-demo-a"
-version = "0.6.6"
+version = "0.6.7"
 dependencies = [
  "prometheus-client",
  "release-flow-demo-b",
@@ -384,7 +384,7 @@ dependencies = [
 
 [[package]]
 name = "release-flow-demo-b"
-version = "0.3.7"
+version = "0.4.0"
 dependencies = [
  "release-flow-demo-c",
  "serde",

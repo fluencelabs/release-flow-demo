@@ -1,9 +1,9 @@
 [package]
 name = "release-flow-demo-a"
 publish = ["fluence"]
-version = "0.6.6"
+version = "0.6.7"
 edition = "2021"
 
 [dependencies]
-release-flow-demo-b = { version = "0.3.7", registry = "fluence", path = "../release-flow-demo-b" }
+release-flow-demo-b = { version = "0.4.0", registry = "fluence", path = "../release-flow-demo-b" }
 prometheus-client = "0.18.0"
