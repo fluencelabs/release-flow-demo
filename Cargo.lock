@@ -13,8 +13,13 @@ dependencies = [
 name = "release-flow-demo-b"
 version = "0.3.0"
 dependencies = [
+ "release-flow-demo-c",
  "serde",
 ]
+
+[[package]]
+name = "release-flow-demo-c"
+version = "0.1.0"
 
 [[package]]
 name = "serde"
