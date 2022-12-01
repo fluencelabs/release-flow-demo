@@ -12,6 +12,20 @@
   * dependencies
     * release-flow-demo-b bumped from =0.2.4-alpha.0 to 0.2.4
 
+## [0.5.0-alpha.0](https://github.com/fluencelabs/release-flow-demo/compare/release-flow-demo-a-v0.4.0-alpha.0...release-flow-demo-a-v0.5.0-alpha.0) (2022-12-01)
+
+
+### Features
+
+* Add C ([42096ad](https://github.com/fluencelabs/release-flow-demo/commit/42096ad81ea2ded2f50c7ebfe8434c743dc6375b))
+
+
+### Dependencies
+
+* The following workspace dependencies were updated
+  * dependencies
+    * release-flow-demo-b bumped from 0.2.5 to 0.3.0
+
 ## [0.4.0-alpha.0](https://github.com/fluencelabs/release-flow-demo/compare/release-flow-demo-a-v0.3.5-alpha.0...release-flow-demo-a-v0.4.0-alpha.0) (2022-12-01)
 
 
