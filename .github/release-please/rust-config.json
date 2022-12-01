@@ -4,7 +4,8 @@
   "prerelease": true,
   "packages": {
     "crates/release-flow-demo-a": {},
-    "crates/release-flow-demo-b": {}
+    "crates/release-flow-demo-b": {},
+    "crates/release-flow-demo-c": {}
   },
   "plugins": [
     "cargo-workspace"
