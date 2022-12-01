@@ -3,15 +3,15 @@
   "bump-minor-pre-major": true,
   "bump-patch-for-minor-pre-major": true,
   "group-pull-request-title-pattern": "chore: release marine",
-  "skip-github-release": true,
+  "draft": true,
   "packages": {
     "crates/release-flow-demo-a": {
-      "skip-github-release": false
+      "draft": false
     },
     "crates/release-flow-demo-b": {},
     "crates/release-flow-demo-c": {},
     "marine": {
-      "skip-github-release": false
+      "draft": false,
     }
   },
   "plugins": [
