@@ -1,5 +1,18 @@
 # Changelog
 
+## [1.0.4](https://github.com/fluencelabs/release-flow-demo/compare/marine-js-v1.0.0...marine-js-v1.0.4) (2022-12-01)
+
+
+### Features
+
+* Add marine ([#35](https://github.com/fluencelabs/release-flow-demo/issues/35)) ([81e0c6b](https://github.com/fluencelabs/release-flow-demo/commit/81e0c6b516205e346950556716a099e3d56c3e4d))
+
+
+### Bug Fixes
+
+* Add feature ([#50](https://github.com/fluencelabs/release-flow-demo/issues/50)) ([ee150ab](https://github.com/fluencelabs/release-flow-demo/commit/ee150ab1ab3bc7e975f7ca383900dd40fd0ea50f))
+* marine-js version ([#54](https://github.com/fluencelabs/release-flow-demo/issues/54)) ([aa9106f](https://github.com/fluencelabs/release-flow-demo/commit/aa9106f3a4994d99d26a8b2d70ad6fff0036c847))
+
 ## 1.0.0 (2022-12-01)
 
 
