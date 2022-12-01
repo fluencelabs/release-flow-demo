@@ -16,6 +16,25 @@
   * dependencies
     * release-flow-demo-b bumped from 0.3.1 to 0.3.2
 
+## [0.6.2](https://github.com/fluencelabs/release-flow-demo/compare/release-flow-demo-a-v0.6.1...release-flow-demo-a-v0.6.2) (2022-12-01)
+
+
+### Features
+
+* Add marine ([#35](https://github.com/fluencelabs/release-flow-demo/issues/35)) ([81e0c6b](https://github.com/fluencelabs/release-flow-demo/commit/81e0c6b516205e346950556716a099e3d56c3e4d))
+
+
+### Bug Fixes
+
+* Add more dependencies ([#33](https://github.com/fluencelabs/release-flow-demo/issues/33)) ([f867627](https://github.com/fluencelabs/release-flow-demo/commit/f867627c3fa6787da764d602369b79cf8796383f))
+
+
+### Dependencies
+
+* The following workspace dependencies were updated
+  * dependencies
+    * release-flow-demo-b bumped from 0.3.2 to 0.3.3
+
 ## [0.6.0](https://github.com/fluencelabs/release-flow-demo/compare/release-flow-demo-a-v0.5.0...release-flow-demo-a-v0.6.0) (2022-12-01)
 
 
