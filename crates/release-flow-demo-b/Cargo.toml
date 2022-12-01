@@ -6,6 +6,7 @@ edition = "2021"
 
 [dependencies]
 serde = "1.0.147"
+release-flow-demo-c = { version = "0.1.0", registry = "fluence", path = "../release-flow-demo-c" }
 
 [package.metadata.workspaces]
 independent = true

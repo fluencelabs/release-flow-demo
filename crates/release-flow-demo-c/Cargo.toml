@@ -1,0 +1,8 @@
+[package]
+name = "release-flow-demo-c"
+publish = ["fluence"]
+version = "0.1.0"
+edition = "2021"
+
+[package.metadata.workspaces]
+independent = true
