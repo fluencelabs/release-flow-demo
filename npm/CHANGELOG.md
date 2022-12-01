@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.3](https://github.com/fluencelabs/release-flow-demo/compare/marine-js-v1.0.2...marine-js-v1.0.3) (2022-12-01)
+
+
+### Bug Fixes
+
+* Something changed in node package ([1be4aa2](https://github.com/fluencelabs/release-flow-demo/commit/1be4aa260933e6b60dcc9a70ff22f355a520ea74))
+
 ## [1.0.2](https://github.com/fluencelabs/release-flow-demo/compare/marine-js-v1.0.1...marine-js-v1.0.2) (2022-11-29)
 
 
