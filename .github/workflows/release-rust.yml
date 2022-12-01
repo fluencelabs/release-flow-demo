@@ -61,8 +61,11 @@ jobs:
         env:
           CARGO_REGISTRY_TOKEN: ${{ secrets.CARGO_REGISTRY_TOKEN }}
 
+      - name: debug
+        run: echo ${{ toJSON(steps.release.outputs) }}
+
       - name: Upload marine binary
-        if: ${{ steps.release.outputs['packages/marine--release_created'] }}
+        if: steps.release.outputs['packages/marine--release_created']
         uses: softprops/action-gh-release@v1
         with:
           files: target/release/marine
