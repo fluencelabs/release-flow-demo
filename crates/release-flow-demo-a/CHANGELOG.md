@@ -12,6 +12,28 @@
   * dependencies
     * release-flow-demo-b bumped from =0.2.4-alpha.0 to 0.2.4
 
+## [0.6.0](https://github.com/fluencelabs/release-flow-demo/compare/release-flow-demo-a-v0.5.0...release-flow-demo-a-v0.6.0) (2022-12-01)
+
+
+### Features
+
+* Add C ([42096ad](https://github.com/fluencelabs/release-flow-demo/commit/42096ad81ea2ded2f50c7ebfe8434c743dc6375b))
+* Add feature one ([#1](https://github.com/fluencelabs/release-flow-demo/issues/1)) ([3e92343](https://github.com/fluencelabs/release-flow-demo/commit/3e923430ee160178a82a431b6b572c1900953d06))
+* Something changed in A ([2a004ce](https://github.com/fluencelabs/release-flow-demo/commit/2a004ce9049cd90e221387f7c054356640688f3f))
+
+
+### Bug Fixes
+
+* Change id to alpha ([#18](https://github.com/fluencelabs/release-flow-demo/issues/18)) ([4733dcb](https://github.com/fluencelabs/release-flow-demo/commit/4733dcb774e602c866fcdb28ebb286e9cec72be5))
+* Fix rust release ([#12](https://github.com/fluencelabs/release-flow-demo/issues/12)) ([31a912a](https://github.com/fluencelabs/release-flow-demo/commit/31a912a707a2a46d00c71c5a8fc5b0cd05123433))
+
+
+### Dependencies
+
+* The following workspace dependencies were updated
+  * dependencies
+    * release-flow-demo-b bumped from 0.3.0 to 0.3.1
+
 ## [0.5.0-alpha.0](https://github.com/fluencelabs/release-flow-demo/compare/release-flow-demo-a-v0.4.0-alpha.0...release-flow-demo-a-v0.5.0-alpha.0) (2022-12-01)
 
 
