@@ -14,7 +14,10 @@ jobs:
 
     outputs:
       releases-created: ${{ steps.release.outputs.releases_created }}
+
       marine-js-release-created: ${{ steps.release.outputs['marine-js--release_created'] }}
+
+      marine-release-created: ${{ steps.release.outputs['marine--release_created'] }}
       marine-tag-name: ${{ steps.release.outputs['marine--tag_name'] }}
 
     steps:
