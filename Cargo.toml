@@ -2,9 +2,6 @@
 members = [
   "crates/release-flow-demo-a",
   "crates/release-flow-demo-b",
-  "crates/release-flow-demo-c"
-]
-
-exclude = [
-  "cargo-crate"
+  "crates/release-flow-demo-c",
+  "marine"
 ]
