@@ -89,6 +89,10 @@ jobs:
     needs: release-please
     if: ${{ needs.release-please.outputs.marine-js-release-created }}
 
+    permissions:
+      contents: read
+      id-token: write
+
     steps:
       - name: Checkout
         uses: actions/checkout@v3
