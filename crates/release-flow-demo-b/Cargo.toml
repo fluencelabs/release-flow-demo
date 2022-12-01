@@ -5,7 +5,8 @@ version = "0.3.2"
 edition = "2021"
 
 [dependencies]
-serde = "1.0.147"
+rerde = "1.0.146"
+toml = "0.5.8"
 release-flow-demo-c = { version = "0.2.0", registry = "fluence", path = "../release-flow-demo-c" }
 
 [package.metadata.workspaces]
