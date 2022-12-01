@@ -4,6 +4,20 @@
   * dependencies
     * release-flow-demo-a bumped from 0.6.5 to 0.6.6
 
+## [0.1.5](https://github.com/fluencelabs/release-flow-demo/compare/marine-v0.1.4...marine-v0.1.5) (2022-12-01)
+
+
+### Bug Fixes
+
+* Add amazing feature ([#53](https://github.com/fluencelabs/release-flow-demo/issues/53)) ([8f77119](https://github.com/fluencelabs/release-flow-demo/commit/8f7711921400eaae752aecad23b95806850d2f79))
+
+
+### Dependencies
+
+* The following workspace dependencies were updated
+  * dependencies
+    * release-flow-demo-a bumped from 0.6.6 to 0.6.7
+
 ## [0.1.3](https://github.com/fluencelabs/release-flow-demo/compare/marine-v0.1.2...marine-v0.1.3) (2022-12-01)
 
 
