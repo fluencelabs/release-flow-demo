@@ -32,6 +32,20 @@
   * dependencies
     * release-flow-demo-b bumped from 0.3.6 to 0.3.7
 
+## [0.6.8](https://github.com/fluencelabs/release-flow-demo/compare/release-flow-demo-a-v0.6.7...release-flow-demo-a-v0.6.8) (2022-12-05)
+
+
+### Bug Fixes
+
+* Hello November demo ([#62](https://github.com/fluencelabs/release-flow-demo/issues/62)) ([2c96370](https://github.com/fluencelabs/release-flow-demo/commit/2c9637080bc86b6e91347630ce8a3ad7fb20422a))
+
+
+### Dependencies
+
+* The following workspace dependencies were updated
+  * dependencies
+    * release-flow-demo-b bumped from 0.4.0 to 0.4.1
+
 ## [0.6.7](https://github.com/fluencelabs/release-flow-demo/compare/release-flow-demo-a-v0.6.6...release-flow-demo-a-v0.6.7) (2022-12-01)
 
 
