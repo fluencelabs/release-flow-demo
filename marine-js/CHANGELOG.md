@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.5](https://github.com/fluencelabs/release-flow-demo/compare/marine-js-v1.0.4...marine-js-v1.0.5) (2022-12-05)
+
+
+### Bug Fixes
+
+* Hello November demo ([#62](https://github.com/fluencelabs/release-flow-demo/issues/62)) ([2c96370](https://github.com/fluencelabs/release-flow-demo/commit/2c9637080bc86b6e91347630ce8a3ad7fb20422a))
+
 ## [1.0.4](https://github.com/fluencelabs/release-flow-demo/compare/marine-js-v1.0.0...marine-js-v1.0.4) (2022-12-01)
 
 
