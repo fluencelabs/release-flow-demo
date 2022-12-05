@@ -1,5 +1,16 @@
 # Changelog
 
+## [0.3.0](https://github.com/fluencelabs/release-flow-demo/compare/release-flow-demo-c-v0.2.5...release-flow-demo-c-v0.3.0) (2022-12-05)
+
+
+### ⚠ BREAKING CHANGES
+
+* Breaking November demo ([#65](https://github.com/fluencelabs/release-flow-demo/issues/65))
+
+### Features
+
+* Breaking November demo ([#65](https://github.com/fluencelabs/release-flow-demo/issues/65)) ([69e7534](https://github.com/fluencelabs/release-flow-demo/commit/69e753422bae3596ac40a1b753991438c1fd07a9))
+
 ## [0.2.5](https://github.com/fluencelabs/release-flow-demo/compare/release-flow-demo-c-v0.2.4...release-flow-demo-c-v0.2.5) (2022-12-01)
 
 
