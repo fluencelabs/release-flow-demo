@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.3.1](https://github.com/fluencelabs/release-flow-demo/compare/release-flow-demo-c-v0.3.0...release-flow-demo-c-v0.3.1) (2022-12-05)
+
+
+### Features
+
+* Add a feature to crate C ([#70](https://github.com/fluencelabs/release-flow-demo/issues/70)) ([c5bc1f7](https://github.com/fluencelabs/release-flow-demo/commit/c5bc1f7575864bd19621c06d07ff8cefb868e518))
+
 ## [0.3.0](https://github.com/fluencelabs/release-flow-demo/compare/release-flow-demo-c-v0.2.5...release-flow-demo-c-v0.3.0) (2022-12-05)
 
 
