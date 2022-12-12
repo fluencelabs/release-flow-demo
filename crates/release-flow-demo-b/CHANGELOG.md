@@ -10,6 +10,13 @@
   * dependencies
     * release-flow-demo-c bumped from 0.3.0 to 0.3.1
 
+## [0.4.6](https://github.com/fluencelabs/release-flow-demo/compare/release-flow-demo-b-v0.4.5...release-flow-demo-b-v0.4.6) (2022-12-12)
+
+
+### Bug Fixes
+
+* Fix a bug ([#76](https://github.com/fluencelabs/release-flow-demo/issues/76)) ([d37e3c8](https://github.com/fluencelabs/release-flow-demo/commit/d37e3c89f24f557d0cbdbda865397c8b7cad981e))
+
 ## [0.4.5](https://github.com/fluencelabs/release-flow-demo/compare/release-flow-demo-b-v0.4.4...release-flow-demo-b-v0.4.5) (2022-12-05)
 
 
