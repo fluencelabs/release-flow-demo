@@ -9,7 +9,7 @@
     },
     {
       "type": "linked-versions",
-      "group-name": "marine things",
+      "groupName": "marine things",
       "components": [
         "release-flow-demo-a", "release-flow-demo-b"
       ]
