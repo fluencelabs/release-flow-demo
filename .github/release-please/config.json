@@ -17,13 +17,13 @@
   ],
   "packages": {
     "crates/release-flow-demo-a": {
-      "component": "a",
+      "component": "release-flow-demo-a",
       "extra-files": [
         "src/main.rs"
       ]
     },
     "crates/release-flow-demo-b": {
-      "component": "b"
+      "component": "release-flow-demo-b"
     },
     "crates/release-flow-demo-c": {},
     "marine": {},
