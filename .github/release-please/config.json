@@ -11,7 +11,7 @@
       "type": "linked-versions",
       "group-name": "marine things",
       "components": [
-        "a", "b"
+        "release-flow-demo-a", "release-flow-demo-b"
       ]
     }
   ],
