@@ -6,7 +6,7 @@
     {
       "type": "cargo-workspace",
       "merge": false,
-      "cargoManifestPath": "cargo-subdir/Cargo.toml"
+      "cargoWorkspacePath": "cargo-subdir"
     },
     {
       "type": "linked-versions",
