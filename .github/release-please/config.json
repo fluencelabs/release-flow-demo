@@ -6,6 +6,7 @@
   "plugins": [
     {
       "type": "cargo-workspace",
+      "merge": false,
       "cargoWorkspacePath": "cargo-subdir"
     }
   ],
