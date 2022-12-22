@@ -27,7 +27,7 @@
       "component": "release-flow-demo-b"
     },
     "cargo-subdir/crates/release-flow-demo-c": {},
-    "marine": {},
+    "cargo-subdir/marine": {},
     "marine-js": {
       "release-type": "node",
       "separate-pull-requests": true
