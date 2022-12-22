@@ -5,7 +5,8 @@
   "plugins": [
     {
       "type": "cargo-workspace",
-      "merge": false
+      "merge": false,
+      "cargoManifestPath": "cargo-subdir/Cargo.toml"
     },
     {
       "type": "linked-versions",
