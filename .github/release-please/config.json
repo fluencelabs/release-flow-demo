@@ -5,15 +5,7 @@
   "plugins": [
     {
       "type": "cargo-workspace",
-      "merge": false,
       "cargoWorkspacePath": "cargo-subdir"
-    },
-    {
-      "type": "linked-versions",
-      "groupName": "marine things",
-      "components": [
-        "release-flow-demo-a", "release-flow-demo-b"
-      ]
     }
   ],
   "packages": {
